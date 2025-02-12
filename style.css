@@ -1,0 +1,29 @@
+
+html {
+  background-size: 100px 100px;
+  background-position: 0 0, 25px 25px, 50px 50px;
+  text-align: center;
+}
+
+/* Background Pattern 
+Taken From https://projects.verou.me/css3patterns/ */
+
+body{
+background-color: #ece983 !important;
+background-image: linear-gradient(transparent 50%, rgba(255,255,255,.5) 50%) !important;
+background-size: 50px 50px !important;
+}
+
+h1,
+h2 {
+  background-color: black ;
+  border-radius: 20px;
+  color: white;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+#myCanvas {
+  border: 5px solid  black;
+  border-radius: 30px;
+}
